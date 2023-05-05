@@ -18,8 +18,10 @@ elif difficulty == 'hard':
     STARTING_MOVE_DISTANCE = 10
     MOVE_INCREMENT = 15
 
+
 def random_position():
     return randint(-80, 180)
+
 
 def random_color():
     return choice(COLORS)
