@@ -7,9 +7,9 @@ COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 
 screen = Screen()
 screen.setup(width=600, height=600)
-screen.title("Diffuiculty Selector")
+screen.title("Difficulty Selector")
 screen.bgcolor('gray')
-difficulty = screen.textinput("Difficuly", "Do you want hard or easy mode?")
+difficulty = screen.textinput("Difficulty", "Do you want hard or easy mode?")
 
 if difficulty == 'easy':
     STARTING_MOVE_DISTANCE = 5
