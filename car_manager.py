@@ -21,7 +21,6 @@ elif difficulty == 'hard':
 def random_position():
     return randint(-80, 180)
 
-
 def random_color():
     return choice(COLORS)
 
